@@ -1,0 +1,42 @@
+.portfolio {
+  padding: 2rem;
+}
+
+.portfolio h1 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.portfolio-items {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+}
+
+.portfolio-item {
+  border: 1px solid #ccc;
+  padding: 1rem;
+  border-radius: 0.25rem;
+  transition: all 0.2s ease-in-out;
+  cursor: pointer;
+}
+
+.portfolio-item:hover {
+  transform: translateY(-0.25rem);
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+}
+
+.portfolio-item img {
+  max-width: 100%;
+}
+
+.portfolio-item h2 {
+  font-size: 1.5rem;
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+.portfolio-item p {
+  font-size: 1.2rem;
+  line-height: 1.5;
+}

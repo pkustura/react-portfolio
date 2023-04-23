@@ -1,0 +1,40 @@
+
+.contact {
+  padding: 2rem;
+}
+
+.contact h1 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.contact label {
+  font-size: 1.2rem;
+  margin-top: 1rem;
+  display: block;
+}
+
+.contact input,
+.contact textarea {
+  font-size: 1.2rem;
+  margin-top: 0.5rem;
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 0.25rem;
+  width: 100%;
+}
+
+.contact button[type='submit'] {
+  margin-top: 1rem;
+  font-size: 1.2rem;
+  background-color: #0077cc;
+  color: #fff;
+  border: none;
+  border-radius: 0.25rem;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+}
+
+.contact button[type='submit']:hover {
+  background-color: #005fa3;
+}

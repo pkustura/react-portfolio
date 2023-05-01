@@ -10,6 +10,8 @@ import { loadFull } from "tsparticles";
 
 import { GPToptions } from '../components/ParticleOptions';
 
+import { particlesSnow } from '../components/ParticleOptions';
+
 
 function Home() {
 
@@ -30,7 +32,7 @@ function Home() {
     <div className="home">
          <Particles id="tsparticles" init={particlesInit} 
          loaded={particlesLoaded} 
-         options={ GPToptions }/>
+         options={ particlesSnow }/>
          <div className="home-text">
             <h1>Welcome to my Portfolio Website</h1>
             <p>Here, you can learn more about me, view my past projects, and get in touch!</p>

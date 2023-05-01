@@ -8,9 +8,9 @@ import Contact from './pages/Contact';
 import Navbar from './components/Navbar';
 import './App.css';
 
-import { useCallback } from "react";
-import Particles from "react-tsparticles";
-import { loadFull } from "tsparticles";
+//import { useCallback } from "react";
+//import Particles from "react-tsparticles";
+//import { loadFull } from "tsparticles";
 
 function App() {
   

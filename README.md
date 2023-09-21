@@ -2,6 +2,8 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+Note: Support for create-react-app seems at the end of its life, so this repo is simply my hello-world with react and I'm beginning again in a new repo with some preferred technologies.
+
 ## Available Scripts
 
 In the project directory, you can run:
